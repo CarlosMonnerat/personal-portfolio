@@ -7,7 +7,8 @@ import github from "../../../public/assets/img/icon-github.svg";
 export default function Medias() {
    return (
       <div className="flex flex-row gap-10">
-         <Link href='#' target="_blank" className="bg-zinc-300 w-8 h-8 rounded-full">
+         <Link href='#' target="_blank" 
+            className="bg-zinc-300 w-8 h-8 rounded-full hover:bg-cyan-300">
             <Image 
                src ={ linkedin }
                alt="Logotipo do LinkedIn"
