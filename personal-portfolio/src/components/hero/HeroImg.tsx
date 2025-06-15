@@ -5,7 +5,7 @@ import logo from "../../../public/assets/img/hero-img.svg"
 export default function HeroImg() {
    return (
          <Image
-         className="flex justify-center items-center w-130"
+         className="flex justify-center items-center w-120"
             src={ logo }
             alt="Imagem da hero do portifólio"
             width={150}
