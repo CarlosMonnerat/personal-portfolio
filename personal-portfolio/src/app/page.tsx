@@ -1,3 +1,4 @@
+import BlackHole from "@/components/background/BlackHole";
 import VideoBackground from "@/components/background/VideoBackground";
 import Header from "@/components/header/Header";
 
@@ -8,7 +9,8 @@ export default function Home() {
         <div className="w-full absolute top-0 left-0 z-20">
           <Header />
         </div>
-        <h1>Título numero 1 da página: Teste!!!!</h1>
+
+        <BlackHole/>
       </VideoBackground>
        
     </div>
