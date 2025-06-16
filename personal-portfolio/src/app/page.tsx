@@ -11,9 +11,9 @@ export default function Home() {
         <div className="w-full absolute top-0 left-0 z-20">
           <Header />
         </div>
-        <div className="w-full">
-          <Hero/>
-        </div>
+        <main className="w-full">
+            <Hero/>
+        </main>
         
         
       </VideoBackground>
