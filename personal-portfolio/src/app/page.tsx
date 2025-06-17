@@ -5,6 +5,7 @@ import Hero from "@/components/hero/Hero";
 import VideoSlider from "@/components/slides/VideoSlider";
 import { videoList } from "@/components/projects/VideoList";
 import { videoList2 } from "@/components/projects/VideoList2";
+import Skills from "@/components/skills/Skills";
 
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
         <h2 className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
             Habilidades
         </h2>
+        <Skills/>
       </main> 
     </div>
   );

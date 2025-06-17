@@ -22,7 +22,7 @@ export default function VideoSlider({ videos }: VideoSliderProps) {
     <div className="relative w-full max-w-6xl mx-auto overflow-hidden rounded-xl shadow-lg group">
       {/* Container do carrossel */}
       <div
-        className="flex transition-transform duration-500 ease-in-out shadow-amber-400"
+        className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {videos.map((video, index) => (
