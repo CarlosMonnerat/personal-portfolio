@@ -19,7 +19,7 @@ export default function VideoSlider({ videos }: VideoSliderProps) {
   };
 
   return (
-    <div className="relative w-full max-w-6xl mx-auto overflow-hidden rounded-xl shadow-[0_0_30px_5px_rgba(192,132,252,0.5)] group">
+    <div className="relative w-full max-w-6xl mx-auto overflow-hidden rounded-xl border-1 border-purple-600 shadow-[0_0_30px_8px_rgba(192,132,252,0.5)] group">
       {/* Container do carrossel */}
       <div
         className="flex transition-transform duration-500 ease-in-out"
