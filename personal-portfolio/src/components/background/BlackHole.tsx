@@ -1,8 +1,8 @@
 export default function BlackHole() {
   return (
-    <div className="fixed top-[-45%] left-1/2 transform -translate-x-1/2 w-full max-w-screen-xl -z-1 pointer-events-none">
+    <div className="fixed top-[-270px] left-0 w-full h-[600px] overflow-hidden -z-1 pointer-events-none">
       <video
-        className="w-full h-auto object-cover opacity-50 mix-blend-soft-light"
+        className="w-full h-full object-cover opacity-30 mix-blend-soft-light"
         autoPlay
         loop
         muted

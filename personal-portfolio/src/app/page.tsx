@@ -9,7 +9,8 @@ export default function Home() {
       <VideoBackground videoSrc="/assets/videos/galaxy.mp4" />
       
       {/* Conteúdo por cima do vídeo */}
-      <BlackHole />
+        <BlackHole />
+      
       <Header/>
 
       {/* <Header />
