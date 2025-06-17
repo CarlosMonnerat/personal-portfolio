@@ -2,7 +2,9 @@ import VideoBackground from "@/components/background/VideoBackground";
 import Header from "@/components/header/Header";
 import BlackHole from "@/components/background/BlackHole";
 import Hero from "@/components/hero/Hero";
-import Projects from "@/components/projects/Projects";
+import VideoSlider from "@/components/slides/VideoSlider";
+import { videoList } from "@/components/projects/VideoList";
+
 
 export default function Home() {
   return (
@@ -18,7 +20,7 @@ export default function Home() {
         <h2 className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
             Meus Projetos
         </h2>
-        <Projects/>
+        <VideoSlider videos={videoList}/>
       </main> 
     </div>
   );
