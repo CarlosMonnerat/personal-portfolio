@@ -6,7 +6,7 @@ import Projects from "@/components/projects/Projects";
 
 export default function Home() {
   return (
-    <>
+    <div>
       {/* Vídeo de fundo fixo */}
       <VideoBackground videoSrc="/assets/videos/galaxy.mp4" />
       
@@ -20,7 +20,7 @@ export default function Home() {
         </h2>
         <Projects/>
       </main> 
-    </>
+    </div>
   );
 }
 
