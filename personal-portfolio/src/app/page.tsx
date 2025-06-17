@@ -4,6 +4,7 @@ import BlackHole from "@/components/background/BlackHole";
 import Hero from "@/components/hero/Hero";
 import VideoSlider from "@/components/slides/VideoSlider";
 import { videoList } from "@/components/projects/VideoList";
+import { videoList2 } from "@/components/projects/VideoList2";
 
 
 export default function Home() {
@@ -21,6 +22,8 @@ export default function Home() {
             Meus Projetos
         </h2>
         <VideoSlider videos={videoList}/>
+        <p className="text-white">Teste</p>
+        <VideoSlider videos={videoList2}/>
       </main> 
     </div>
   );
