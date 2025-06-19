@@ -13,6 +13,7 @@ const skills: Skill[] = [
   { name: "TypeScript", src: "/assets/img/technologies/typescript.svg", width: 67 },
   { name: "React", src: "/assets/img/technologies/react.svg", width: 75 },
   { name: "Next.js", src: "/assets/img/technologies/nextjs.svg", width: 80 },
+  { name: "TailwindCSS", src: "/assets/img/technologies/tailwind.svg", width: 80 },
   { name: "Node.js", src: "/assets/img/technologies/nodejs.svg", width: 100 },
   { name: "MySQL", src: "/assets/img/technologies/mysql.svg", width: 118 },
 ];
