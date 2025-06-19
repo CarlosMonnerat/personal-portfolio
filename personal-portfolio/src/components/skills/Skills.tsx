@@ -22,7 +22,7 @@ const skills: Skill[] = [
 
 export default function Skills() {
   return (
-    <div className="flex flex-row justify-around items-center flex-wrap gap-10 p-4 w-full max-w-6xl mx-auto rounded-xl bg-transparent">
+    <div className="flex flex-row justify-around items-center flex-wrap gap-10 p-4 w-full max-w-3xl mx-auto rounded-xl bg-transparent">
       {skills.map((skill, index) => (
         <div key={index} className="relative group">
           <Image
