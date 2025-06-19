@@ -16,6 +16,8 @@ const skills: Skill[] = [
   { name: "TailwindCSS", src: "/assets/img/technologies/tailwind.svg", width: 80 },
   { name: "Node.js", src: "/assets/img/technologies/nodejs.svg", width: 100 },
   { name: "MySQL", src: "/assets/img/technologies/mysql.svg", width: 118 },
+  { name: "Git", src: "/assets/img/technologies/git.svg", width: 90 },
+  
 ];
 
 export default function Skills() {
