@@ -35,6 +35,9 @@ export default function Home() {
             Sobre Mim
         </h2>
         <About/>
+        <h2 className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
+            Contato
+        </h2>
       </main> 
     </div>
   );
