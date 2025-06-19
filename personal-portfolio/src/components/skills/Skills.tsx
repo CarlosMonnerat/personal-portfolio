@@ -17,7 +17,7 @@ const skills: Skill[] = [
   { name: "Node.js", src: "/assets/img/technologies/nodejs.svg", width: 100 },
   { name: "MySQL", src: "/assets/img/technologies/mysql.svg", width: 118 },
   { name: "Git", src: "/assets/img/technologies/git.svg", width: 90 },
-  
+  { name: "GitHub", src: "/assets/img/technologies/github.svg", width: 75 },
 ];
 
 export default function Skills() {
