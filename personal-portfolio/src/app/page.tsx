@@ -30,6 +30,9 @@ export default function Home() {
             Habilidades
         </h2>
         <Skills/>
+        <h2 className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
+            Sobre Mim
+        </h2>
       </main> 
     </div>
   );
