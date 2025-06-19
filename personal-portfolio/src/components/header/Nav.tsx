@@ -7,7 +7,7 @@ export default function Nav() {
       <ul className="flex flex-row gap-20 font-bold text-white">
         <li>
           <Link href="#" className="hover:text-purple-400">
-            Sobre Mim
+            Projetos
           </Link>
         </li>
         <li>
@@ -17,7 +17,7 @@ export default function Nav() {
         </li>
         <li>
           <Link href="#" className="hover:text-purple-400">
-            Projetos
+            Sobre Mim
           </Link>
         </li>
         <li>
