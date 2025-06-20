@@ -2,7 +2,7 @@ import CurriculoSection from "./CurriculoSection";
 
 export default function About() {
    return (
-      <section className="flex flex-row justify-between items-start gap-10 p-4 w-full max-w-6xl mx-auto rounded-xl border-1 border-purple-600 shadow-[0_0_30px_8px_rgba(192,132,252,0.5)]">
+      <section className="flex flex-row justify-between items-start gap-10 p-4 w-full max-w-7xl mx-auto rounded-xl border-1 border-purple-600 shadow-[0_0_30px_8px_rgba(192,132,252,0.5)]">
          <video
             className="w-xl h-full opacity-20 object-cover mix-blend-soft-light"
             autoPlay
@@ -10,7 +10,7 @@ export default function About() {
             muted
             playsInline
          >
-            <source src="/assets/videos/about.mp4" type="video/mp4" />
+            <source src="/assets/videos/earth.mp4" type="video/mp4" />
                Seu navegador não suporta o vídeo.
          </video>
 
