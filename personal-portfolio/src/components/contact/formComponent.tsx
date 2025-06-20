@@ -23,7 +23,7 @@ export default function FormComponent() {
     e.preventDefault();
 
     // Aqui você pode integrar com um serviço de envio (EmailJS, API, etc.)
-    alert("Mensagem enviada com sucesso!");
+    alert("Obrigado por entrar em contato!!! Sua mensagem foi enviada com sucesso. Retornarei o mais breve possível.");
 
     // Limpa o formulário
     setForm({ nome: "", email: "", mensagem: "" });
