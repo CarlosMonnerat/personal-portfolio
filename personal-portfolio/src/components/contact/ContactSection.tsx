@@ -2,7 +2,7 @@ import FormComponent from "./formComponent";
 
 export default function ContactSection() {
   return (
-    <section className="flex flex-row justify-between items-center max-w-6xl mx-auto rounded-xl border-1 border-purple-600 shadow-[0_0_30px_8px_rgba(192,132,252,0.5)]">
+    <section className="flex flex-row justify-between items-center max-w-6xl mx-auto rounded-xl">
       <video
             className="w-xl h-full opacity-20 object-cover mix-blend-soft-light"
             autoPlay
