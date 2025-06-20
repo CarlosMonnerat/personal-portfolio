@@ -8,6 +8,7 @@ import { videoList2 } from "@/components/projects/VideoList2";
 import Skills from "@/components/skills/Skills";
 import About from "@/components/about/About";
 import ContactSection from "@/components/contact/ContactSection";
+import Footer from "@/components/footer/Footer";
 
 
 export default function Home() {
@@ -40,7 +41,8 @@ export default function Home() {
             Contato
         </h2>
         <ContactSection/>
-      </main> 
+      </main>
+      <Footer/>
     </div>
   );
 }
