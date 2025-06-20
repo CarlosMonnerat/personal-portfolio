@@ -9,9 +9,9 @@ export default function About() {
             <div>
                <Image
                   src={ perfil }
-                  alt="Imagem da logo provisória"
-                  width={280}
-                  className="border-5 border-purple-950 rounded-full opacity-75 mt-8"
+                  alt="Imagem perfil provisória"
+                  width={310}
+                  className="border-5 border-purple-500 rounded-full opacity-75 mt-8 shadow-[0_0_10px_2px_rgba(152,132,152)]"
 
                />
             </div>
