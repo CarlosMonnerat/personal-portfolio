@@ -37,7 +37,7 @@ export default function About() {
                </p>
             </div>
             
-            <div className="flex flex-col justify-start items-start w-full mb-25">
+            <div className="flex flex-col justify-start items-start w-full mb-18">
                <h4 className="text-2xl font-semibold text-purple-500">Formação Acadêmica:</h4>
                <ol className="list-disc pl-5">
                   <li>Bacharel em Física - 2024</li>

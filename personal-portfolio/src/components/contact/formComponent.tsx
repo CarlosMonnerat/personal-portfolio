@@ -65,7 +65,7 @@ export default function FormComponent() {
         />
         <button
           type="submit"
-          className="w-full text-white py-3 rounded-lg font-semibold cursor-pointer bg-gradient-to-r from-purple-600 to-purple-950 hover:bg-gradient-to-l hover:text-gray-300 hover:shadow-[0_0_10px_2px_rgba(152,132,152)] transition-colors"
+          className="w-full text-white py-3 rounded-full font-semibold cursor-pointer bg-gradient-to-r from-purple-600 to-purple-950 hover:bg-gradient-to-l hover:text-gray-300 hover:shadow-[0_0_10px_2px_rgba(152,132,152)] transition-colors"
         >
           Enviar Mensagem
         </button>

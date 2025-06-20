@@ -9,7 +9,7 @@ export default function CurriculoSection() {
       <a
         href="/curriculo.pdf"
         download
-        className="inline-block text-white px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-purple-950 hover:bg-gradient-to-l hover:shadow-[0_0_25px_4px_rgba(192,132,252,0.5)] transition-colors"
+        className="inline-block text-white px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-purple-950 hover:bg-gradient-to-l hover:shadow-[0_0_10px_2px_rgba(152,132,152)] transition-colors"
       >
         Baixar Currículo
       </a>
