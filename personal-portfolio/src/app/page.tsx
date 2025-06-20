@@ -7,6 +7,7 @@ import { videoList } from "@/components/projects/VideoList";
 import { videoList2 } from "@/components/projects/VideoList2";
 import Skills from "@/components/skills/Skills";
 import About from "@/components/about/About";
+import ContactSection from "@/components/contact/ContactSection";
 
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
         <h2 className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
             Contato
         </h2>
+        <ContactSection/>
       </main> 
     </div>
   );
