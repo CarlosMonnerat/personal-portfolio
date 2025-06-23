@@ -37,8 +37,6 @@ export default function FormComponent() {
       console.log("Erro: ", err);
     });
 
-    
-
     // Limpa o formulário
     setForm({ nome: "", email: "", mensagem: "" });
   };
