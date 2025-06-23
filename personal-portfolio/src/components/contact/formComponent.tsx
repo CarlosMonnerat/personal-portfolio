@@ -1,5 +1,6 @@
 'use client'
 import { useState, ChangeEvent, FormEvent } from "react";
+import emailjs from '@emailjs/browser';
 
 interface FormData {
   nome: string;
@@ -22,8 +23,21 @@ export default function FormComponent() {
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
 
-    // Aqui você pode integrar com um serviço de envio (EmailJS, API, etc.)
-    alert("Obrigado por entrar em contato!!! Sua mensagem foi enviada com sucesso. Retornarei o mais breve possível.");
+    // Integração com um serviço de envio (EmailJS)
+    const templateParams = {
+      from_name: form.nome,
+      email: form.email,
+      mensagem: form.mensagem
+    };
+                  //(ID Service, ID Template, templateParams(Opcional), "Public key")
+    emailjs.send("service_2ikp685", "template_ekvnwz8", templateParams, "n_CRbkvUshTxjYyLy").then((response)=>{
+      console.log("Email enviado", response.status, response.text);
+      alert("EMAIL ENVIADO COM SUCESSO!!! Obrigado por entrar em contato, retornarei o mais breve possível.");
+    }, (err) =>{
+      console.log("Erro: ", err);
+    });
+
+    
 
     // Limpa o formulário
     setForm({ nome: "", email: "", mensagem: "" });
