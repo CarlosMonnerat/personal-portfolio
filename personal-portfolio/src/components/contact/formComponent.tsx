@@ -25,7 +25,7 @@ export default function FormComponent() {
 
     // Integração com um serviço de envio (EmailJS)
     const templateParams = {
-      from_name: form.nome,
+      nome: form.nome,
       email: form.email,
       mensagem: form.mensagem
     };
