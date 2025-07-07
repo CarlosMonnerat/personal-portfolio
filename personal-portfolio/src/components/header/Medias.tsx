@@ -5,11 +5,11 @@ import github from "../../../public/assets/img/icon-github.svg";
 
 export default function Medias() {
   return (
-    <div className="hidden md:flex flex-row gap-6">
+    <div className="flex flex-row gap-6 is-desktop">
       <Link
         href="#"
         target="_blank"
-        className="bg-zinc-300 w-8 h-8 rounded-full flex items-center justify-center hover:border-3 border-purple-400 transition"
+        className="bg-zinc-300 w-8 h-8 rounded-full flex items-center justify-center hover:border-2 border-purple-400 transition"
       >
         <Image
           src={linkedin}
@@ -21,7 +21,7 @@ export default function Medias() {
       <Link
         href="https://github.com/CarlosMonnerat"
         target="_blank"
-        className="bg-zinc-300 w-8 h-8 rounded-full flex items-center justify-center hover:border-3 border-purple-400 transition"
+        className="bg-zinc-300 w-8 h-8 rounded-full flex items-center justify-center hover:border-2 border-purple-400 transition"
       >
         <Image
           src={github}
@@ -33,3 +33,4 @@ export default function Medias() {
     </div>
   );
 }
+
