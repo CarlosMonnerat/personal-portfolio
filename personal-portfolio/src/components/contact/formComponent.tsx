@@ -64,7 +64,7 @@ export default function FormComponent() {
           value={form.email}
           onChange={handleChange}
           required
-          className="max-w-6xl border border-gray-300 rounded-lg px-4 py-3 text-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="max-w-6xl rounded-lg px-4 py-3 text-gray-400 focus:outline-none focus:ring-2 border-1 border-purple-600 shadow-[0_0_12px_3px_rgba(192,132,252,0.5)] focus:ring-purple-500"
         />
         <textarea
           name="mensagem"
