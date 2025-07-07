@@ -73,7 +73,7 @@ export default function FormComponent() {
           value={form.mensagem}
           onChange={handleChange}
           required
-          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          className="w-full rounded-lg px-4 py-3 text-gray-400 focus:outline-none focus:ring-2 border-1 border-purple-600 shadow-[0_0_12px_3px_rgba(192,132,252,0.5)] focus:ring-purple-500"
         />
         <button
           type="submit"
