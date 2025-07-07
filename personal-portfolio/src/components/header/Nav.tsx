@@ -10,7 +10,7 @@ export default function Nav() {
     <nav className="relative">
       {/* Menu desktop */}
       <div className="hidden md:flex border-2 border-purple-400 rounded-full px-6 py-3">
-        <ul className="flex flex-row gap-10 font-bold text-white">
+        <ul className="flex flex-row gap-20 font-bold text-white">
           <li>
             <Link href="#" className="hover:text-purple-400">
               Projetos
