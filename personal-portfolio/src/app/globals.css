@@ -16,3 +16,23 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  @media (max-width: 900px) {
+    .is-desktop {
+      display: none !important;
+    }
+    .is-mobile {
+      display: flex !important;
+    }
+  }
+
+  @media (min-width: 901px) {
+    .is-desktop {
+      display: flex !important;
+    }
+    .is-mobile {
+      display: none !important;
+    }
+  }
+}
