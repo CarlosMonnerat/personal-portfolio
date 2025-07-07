@@ -8,9 +8,9 @@ export interface VideoItem {
 
 export const videoList2: VideoItem[] = [
  {
-    file: 'project1.mp4',
-    siteUrl: 'https://meusite.com/project1',
-    githubUrl: 'https://github.com/usuario/project1',
+    file: 'project3.mp4',
+    siteUrl: 'https://meusite.com/project3',
+    githubUrl: 'https://github.com/usuario/project3',
   },
   {
     file: 'project2.mp4',
@@ -18,8 +18,8 @@ export const videoList2: VideoItem[] = [
     githubUrl: 'https://github.com/usuario/project2',
   },
   {
-    file: 'project3.mp4',
-    siteUrl: 'https://meusite.com/project3',
-    githubUrl: 'https://github.com/usuario/project3',
+    file: 'project1.mp4',
+    siteUrl: 'https://meusite.com/project1',
+    githubUrl: 'https://github.com/usuario/project1',
   },
 ];
