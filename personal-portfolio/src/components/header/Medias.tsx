@@ -3,26 +3,33 @@ import Image from "next/image";
 import linkedin from "../../../public/assets/img/icon-linkedin.svg";
 import github from "../../../public/assets/img/icon-github.svg";
 
-
 export default function Medias() {
-   return (
-      <div className="flex flex-row gap-10">
-         <Link href='#'
-            target="_blank"
-            className="bg-zinc-300 w-8 h-8 rounded-full hover:border-3 border-purple-400" >
-               <Image
-                  src ={ linkedin }
-                  alt="Logotipo do LinkedIn"
-               />
-         </Link>
-         <Link href='https://github.com/CarlosMonnerat'
-            target="_blank"
-            className="bg-zinc-300 w-8 h-8 rounded-full hover:border-3 border-purple-400">
-               <Image
-                  src={ github }
-                  alt="logotipo do GitHub"
-               />
-         </Link>
-      </div>
-   )
-};
+  return (
+    <div className="hidden md:flex flex-row gap-6">
+      <Link
+        href="#"
+        target="_blank"
+        className="bg-zinc-300 w-8 h-8 rounded-full flex items-center justify-center hover:border-2 border-purple-400 transition"
+      >
+        <Image
+          src={linkedin}
+          alt="Logotipo do LinkedIn"
+          width={20}
+          height={20}
+        />
+      </Link>
+      <Link
+        href="https://github.com/CarlosMonnerat"
+        target="_blank"
+        className="bg-zinc-300 w-8 h-8 rounded-full flex items-center justify-center hover:border-2 border-purple-400 transition"
+      >
+        <Image
+          src={github}
+          alt="Logotipo do GitHub"
+          width={20}
+          height={20}
+        />
+      </Link>
+    </div>
+  );
+}
