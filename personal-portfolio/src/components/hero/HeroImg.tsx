@@ -5,7 +5,7 @@ export default function HeroImg() {
   return (
     <div className="flex justify-center items-center w-full hide-hero-on-mobile">
       <Image
-        className="w-110 float"
+        className="w-120 float"
         src={logo}
         alt="Imagem da hero do portfólio"
       />
