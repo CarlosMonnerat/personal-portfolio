@@ -7,7 +7,7 @@ export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="relative flex justify-between items-center border-2 border-purple-400 rounded-full px-6 py-3">
+    <nav className="relative flex justify-between items-center border-2 border-purple-400 rounded-full px-6 py-3 shadow-[0_0_12px_3px_rgba(192,132,252,0.5)]">
       
       {/* Menu horizontal (desktop) */}
       <ul className="flex-row gap-20 font-bold text-white hidden is-desktop">
@@ -40,7 +40,7 @@ export default function Nav() {
 
       {/* Menu vertical (mobile) */}
       {menuOpen && (
-        <div className="absolute top-14 right-0 w-56 border-2 border-purple-700 rounded-lg shadow-lg p-4 z-50 is-mobile">
+        <div className="absolute top-14 right-0 w-56 border-2 border-purple-700 rounded-lg p-4 z-50 is-mobile shadow-[0_0_12px_3px_rgba(192,132,252,0.5)]">
           <ul className="flex flex-col gap-4 text-white font-bold">
             <li>
               <Link href="#" className="hover:text-purple-400" onClick={() => setMenuOpen(false)}>
