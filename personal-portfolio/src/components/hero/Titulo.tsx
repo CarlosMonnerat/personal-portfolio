@@ -1,7 +1,16 @@
 export default function Title() {
-   return (
-      <h1 className="flex justify-start items-center max-w-xl text-white text-6xl font-bold bg-transparent">
-         Olá, eu sou Carlos Monnerat
-      </h1>
-   )   
-};
+  return (
+    <h1 className="flex flex-col max-w-xl text-white text-6xl font-bold bg-transparent leading-tight">
+      <span>
+        Olá, eu sou <span className="text-gradient animated-gradient-reverse">Carlos</span>
+      </span>
+      <span className="animated-gradient-reverse">
+        <span className="typing-wrapper">
+          <span className="text-gradient">Monnerat</span>
+        </span>
+      </span>
+    </h1>
+  );
+}
+
+
