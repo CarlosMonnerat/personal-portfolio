@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./styles/mediaHeader.css";
+@import "./styles/mediaHero.css";
 
 /* *{
   padding: 0;
