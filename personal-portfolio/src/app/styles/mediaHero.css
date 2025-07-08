@@ -94,12 +94,12 @@
   /* Quebra para telas menores que 1024px */
   @media (max-width: 1024px) {
     .title-h1 {
-      font-size: 5rem; /* ~text-4xl */
+      font-size: 3rem; /* ~text-4xl */
     }
 
     .title-carlos,
     .title-monnerat {
-      font-size: 5.5rem; /* ~text-5xl */
+      font-size: 3.5rem; /* ~text-5xl */
     }
   }
   /* Quebra para telas menores que 900px */
