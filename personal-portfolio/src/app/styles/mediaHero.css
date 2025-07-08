@@ -2,7 +2,7 @@
 @layer utilities {
   @keyframes float {
     0% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
+    50% { transform: translateY(-15px); }
     100% { transform: translateY(0); }
   }
 
@@ -12,13 +12,13 @@
 }
 /*Responsividade da Imagem*/
 @layer utilities {
-  @media (max-width: 900px) {
+  @media (max-width: 1024px) {
     .hide-hero-on-mobile {
       display: none !important;
     }
   }
 
-  @media (min-width: 901px) {
+  @media (min-width: 1025px) {
     .hide-hero-on-mobile {
       display: block !important;
     }
