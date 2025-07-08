@@ -6,7 +6,7 @@ export default function Title() {
       </span>
       <span className="animated-gradient-reverse">
         <span className="typing-wrapper">
-          <span className="text-gradient">Monnerat</span>
+          <span className="text-gradient text-7xl">Monnerat</span>
         </span>
       </span>
     </h1>
