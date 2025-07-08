@@ -9,7 +9,7 @@
     }
 
     .logo-small {
-      max-width: 140px !important; /* w-24 */
+      max-width: 140px !important; /* w-36 */
     }
   }
 
@@ -23,7 +23,7 @@
     }
 
     .logo-small {
-      max-width: 140px !important; /* w-36 */
+      max-width: 160px !important; /* w-40 */
     }
   }
 }
