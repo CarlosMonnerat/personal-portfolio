@@ -40,7 +40,7 @@ export default function Nav() {
 
       {/* Menu vertical (mobile) */}
       {menuOpen && (
-        <div className="absolute top-14 right-0 w-56 bg-purple-900 rounded-lg shadow-lg p-4 z-50 is-mobile">
+        <div className="absolute top-14 right-0 w-56 border-2 border-purple-700 rounded-lg shadow-lg p-4 z-50 is-mobile">
           <ul className="flex flex-col gap-4 text-white font-bold">
             <li>
               <Link href="#" className="hover:text-purple-400" onClick={() => setMenuOpen(false)}>
