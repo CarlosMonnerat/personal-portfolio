@@ -1,0 +1,19 @@
+@layer utilities {
+  @media (max-width: 1024px) {
+    .skill-icon {
+      width: 80px !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .skill-icon {
+      width: 70px !important;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .skill-icon {
+      width: 60px !important;
+    }
+  }
+}
