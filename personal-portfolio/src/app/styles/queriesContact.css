@@ -1,0 +1,15 @@
+@layer utilities {
+  @media (max-width: 1024px) {
+    .contact-section {
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 2rem !important;
+      text-align: center !important;
+    }
+
+    .contact-video {
+      display: none !important;
+    }
+  }
+}
