@@ -12,7 +12,7 @@ const skills: Skill[] = [
   { name: "JavaScript", src: "/assets/img/technologies/javascript.svg", width: 60},
   { name: "TypeScript", src: "/assets/img/technologies/typescript.svg", width: 60},
   { name: "React", src: "/assets/img/technologies/react.svg", width: 75 },
-  { name: "Next.js", src: "/assets/img/technologies/nextjs.svg", width: 80 },
+  { name: "Next.js", src: "/assets/img/technologies/nextjs.svg", width: 75 },
   { name: "TailwindCSS", src: "/assets/img/technologies/tailwind.svg", width: 80 },
   { name: "Node.js", src: "/assets/img/technologies/nodejs.svg", width: 100 },
   { name: "MySQL", src: "/assets/img/technologies/mysql.svg", width: 118 },
@@ -30,7 +30,7 @@ export default function Skills() {
             alt={`Logo ${skill.name}`}
             width={skill.width}
             height={skill.width}
-            className="transition-transform duration-300 ease-in-out cursor-pointer skill-icon"
+            className="transition-transform duration-300 ease-in-out cursor-pointer skill-icon float"
           />
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-sm bg-black/70 px-2 py-1 rounded">
             {skill.name}
