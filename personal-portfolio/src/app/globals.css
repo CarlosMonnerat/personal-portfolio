@@ -1,6 +1,6 @@
 @import "tailwindcss";
-@import "./styles/mediaHeader.css";
-@import "./styles/mediaHero.css";
+@import "./styles/queriesHeader.css";
+@import "./styles/queriesHero.css";
 @import "./styles/queriesSkills.css";
 
 /* *{
