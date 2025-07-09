@@ -106,12 +106,12 @@
   /* Quebra para telas menores que 600px */
   @media (max-width: 600px) {
     .title-h1 {
-      font-size: 2rem; /* ~ 32px */
+      font-size: 2.5rem; /* ~ 32px */
     }
 
     .title-carlos,
     .title-monnerat {
-      font-size: 2.5rem; /* ~ 40px */
+      font-size: 2.8rem; /* ~ 40px */
     }
   }
 }
