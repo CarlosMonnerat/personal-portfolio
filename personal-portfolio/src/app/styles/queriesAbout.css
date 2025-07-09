@@ -1,0 +1,12 @@
+@layer utilities {
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+
+    .about-video {
+      display: none !important;
+    }
+  }
+}

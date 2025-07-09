@@ -2,6 +2,7 @@
 @import "./styles/queriesHeader.css";
 @import "./styles/queriesHero.css";
 @import "./styles/queriesSkills.css";
+@import "./styles/queriesAbout.css";
 
 /* *{
   padding: 0;
