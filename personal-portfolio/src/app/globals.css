@@ -3,6 +3,7 @@
 @import "./styles/queriesHero.css";
 @import "./styles/queriesSkills.css";
 @import "./styles/queriesAbout.css";
+@import "./styles/animations.css";
 
 /* *{
   padding: 0;

@@ -1,0 +1,76 @@
+/*Animação de sobe e desce*/
+@layer utilities {
+  @keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+  }
+
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+}
+
+/*Animação de pulso de cor no texto*/
+@layer utilities {
+  @keyframes gradient-slide-reverse {
+    0% {
+      background-position: 100% 50%;
+    }
+    50% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .animated-gradient-reverse {
+    background-size: 200% 200%;
+    animation: gradient-slide-reverse 3s ease infinite;
+  }
+}
+
+/*Animação de Digitação do Texto*/
+@layer utilities {
+  @keyframes typing-backspace {
+    0% {
+      max-width: 0;
+    }
+    40% {
+      max-width: 100%;
+    }
+    60% {
+      max-width: 100%;
+    }
+    100% {
+      max-width: 0;
+    }
+  }
+
+  @keyframes blink-caret {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }
+  }
+
+  .typing-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    animation:
+      typing-backspace 6s steps(18) infinite,
+      blink-caret 1s step-end infinite;
+  }
+
+  .text-gradient {
+    background-image: linear-gradient(to right, #7c3aed, #2e1065);
+    -webkit-background-clip: text;
+    background-clip: text; /* adiciona a propriedade padrão */
+    color: transparent;
+  }
+}
