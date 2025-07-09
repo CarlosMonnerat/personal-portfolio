@@ -14,6 +14,7 @@ export default function About() {
             className="border-5 border-purple-500 rounded-full opacity-75 mt-8 shadow-[0_0_10px_2px_rgba(152,132,152)] float about-img"
           />
         </div>
+
         <video
           className="max-w-sm h-full opacity-20 object-cover mix-blend-soft-light about-video"
           autoPlay
@@ -26,7 +27,7 @@ export default function About() {
         </video>
       </div>
 
-      <div className="flex flex-col justify-start items-center gap-2 w-xl h-full">
+      <div className="flex flex-col justify-start items-center gap-2 w-full h-full px-4">
         <h3 className="text-5xl font-extrabold uppercase p-4 mb-8 text-gradient typing-wrapper about-heading">
           Carlos Monnerat
         </h3>
@@ -37,7 +38,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="flex flex-col justify-start items-start w-full mb-18 about-formation">
+        <div className="flex flex-col justify-start w-full mb-18 about-formation">
           <h4 className="text-2xl font-semibold text-purple-500">Formação Acadêmica:</h4>
           <ol className="list-disc pl-5">
             <li>Bacharel em Física - 2024</li>

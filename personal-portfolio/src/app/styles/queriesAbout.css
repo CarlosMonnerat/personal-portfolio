@@ -3,6 +3,13 @@
     .about-section {
       flex-direction: column !important;
       align-items: center !important;
+      justify-content: center !important;
+      padding-inline: 1rem !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+      box-sizing: border-box !important;
+      gap: 2rem !important;
     }
 
     .about-video {
@@ -14,20 +21,43 @@
     }
 
     .about-heading {
-      font-size: 2rem !important; /* ~text-3xl */
+      font-size: 2rem !important;
       text-align: center !important;
     }
 
     .about-text,
     .about-formation {
+      width: 100% !important;
+      max-width: 100% !important;
+      padding-inline: 1rem !important;
       text-align: center !important;
+      box-sizing: border-box !important;
+    }
+
+    .about-text p {
       font-size: 0.95rem !important;
+      line-height: 1.6 !important;
+      overflow-wrap: break-word !important;
+    }
+
+    .about-formation ol {
+      list-style: disc !important;
+      list-style-position: outside !important;
+      padding-left: 1.25rem !important;
+      margin: 0 auto !important;
+      text-align: left !important;
     }
   }
 
   @media (max-width: 768px) {
-   .about-img {
+    .about-img {
       width: 200px !important;
+    }
+
+    .about-text p {
+      font-size: 0.85rem !important;
+      line-height: 1.5 !important;
     }
   }
 }
+
