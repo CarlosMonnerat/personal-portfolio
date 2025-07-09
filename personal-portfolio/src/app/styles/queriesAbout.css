@@ -1,5 +1,5 @@
 @layer utilities {
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .about-section {
       flex-direction: column !important;
       align-items: center !important;
@@ -8,5 +8,26 @@
     .about-video {
       display: none !important;
     }
+
+    .about-img {
+      width: 300px !important;
+    }
+
+    .about-heading {
+      font-size: 2rem !important; /* ~text-3xl */
+      text-align: center !important;
+    }
+
+    .about-text,
+    .about-formation {
+      text-align: center !important;
+      font-size: 0.95rem !important;
+    }
   }
-}
+
+  @media (max-width: 768px) {
+   .about-img {
+      width: 200px !important;
+    }
+  }
+};

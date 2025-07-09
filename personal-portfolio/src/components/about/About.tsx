@@ -1,6 +1,6 @@
 import CurriculoSection from "./CurriculoSection";
 import Image from "next/image";
-import perfil from "../../../public/assets/img/homem.png"; // Substitua conforme necessário
+import perfil from "../../../public/assets/img/homem.png";
 
 export default function About() {
   return (
@@ -11,7 +11,7 @@ export default function About() {
             src={perfil}
             alt="Imagem de perfil provisória"
             width={310}
-            className="border-5 border-purple-500 rounded-full opacity-75 mt-8 shadow-[0_0_10px_2px_rgba(152,132,152)] float"
+            className="border-5 border-purple-500 rounded-full opacity-75 mt-8 shadow-[0_0_10px_2px_rgba(152,132,152)] float about-img"
           />
         </div>
         <video
@@ -27,17 +27,17 @@ export default function About() {
       </div>
 
       <div className="flex flex-col justify-start items-center gap-2 w-xl h-full">
-        <h3 className="text-5xl font-extrabold uppercase p-4 mb-8 text-gradient typing-wrapper">
+        <h3 className="text-5xl font-extrabold uppercase p-4 mb-8 text-gradient typing-wrapper about-heading">
           Carlos Monnerat
         </h3>
 
-        <div className="flex flex-col justify-start items-start w-full mb-8">
+        <div className="flex flex-col justify-start items-start w-full mb-8 about-text">
           <p>
             Desenvolvedor Web, focado em soluções digitais personalizadas e forte entusiasmo por criar interfaces modernas, rápidas e responsivas, totalmente funcionais e centradas na experiência do usuário. Páginas institucionais, lojas virtuais (e-commerce), blogs e landing pages. Meu objetivo é transformar ideias em experiências online eficientes e que gerem resultados, seja para atrair clientes, vender produtos ou fortalecer a presença digital.
           </p>
         </div>
 
-        <div className="flex flex-col justify-start items-start w-full mb-18">
+        <div className="flex flex-col justify-start items-start w-full mb-18 about-formation">
           <h4 className="text-2xl font-semibold text-purple-500">Formação Acadêmica:</h4>
           <ol className="list-disc pl-5">
             <li>Bacharel em Física - 2024</li>
