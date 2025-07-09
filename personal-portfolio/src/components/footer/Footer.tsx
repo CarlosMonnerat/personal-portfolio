@@ -6,7 +6,7 @@ import Medias from "../header/Medias";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-row items-center justify-around mt-16 bg-amber-400">
+    <footer className="flex flex-row items-center justify-around mt-16">
       <Link href="/" className="block logo-small w-full is-desktop">
         <Image
           src={logo}
@@ -15,7 +15,7 @@ export default function Footer() {
           priority
         />
       </Link>
-      <p className="text-white p-10">
+      <p className="text-white footer-text">
          © Portifólio criado para fins profissionais | Carlos Monnerat - {new Date().getFullYear()}
       </p>
       <Medias/>

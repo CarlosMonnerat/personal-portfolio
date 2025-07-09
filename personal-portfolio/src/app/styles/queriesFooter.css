@@ -1,0 +1,23 @@
+@layer utilities {
+  @media (max-width: 1024px) {
+    .footer-text {
+      font-size: 0.95rem !important;
+      text-align: center !important;
+      padding: 1.5rem 2rem !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-text {
+      font-size: 0.85rem !important;
+      padding: 1rem 1.5rem !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .footer-text {
+      font-size: 0.75rem !important;
+      padding: 0.75rem 1rem !important;
+    }
+  }
+}
