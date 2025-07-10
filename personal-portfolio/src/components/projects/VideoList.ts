@@ -24,7 +24,7 @@ export const videoList: VideoItem[] = [
     githubUrl: 'https://github.com/usuario/project3',
   },
   {
-    file: 'crud_cadastro_de_clientes.mp4',
+    file: 'crud.mp4',
     siteUrl: 'https://carlosmonnerat.github.io/CRUD_Cadastro_de_Clientes/',
     githubUrl: 'https://github.com/CarlosMonnerat/CRUD_Cadastro_de_Clientes',
   },
