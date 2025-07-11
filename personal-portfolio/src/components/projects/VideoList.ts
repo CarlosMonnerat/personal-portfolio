@@ -28,4 +28,9 @@ export const videoList: VideoItem[] = [
     siteUrl: 'https://carlosmonnerat.github.io/CRUD_Cadastro_de_Clientes/',
     githubUrl: 'https://github.com/CarlosMonnerat/CRUD_Cadastro_de_Clientes',
   },
+  {
+    file: 'cep.mp4',
+    siteUrl: 'https://carlosmonnerat.github.io/API_Consulta_de_CEP/',
+    githubUrl: 'https://github.com/CarlosMonnerat/API_Consulta_de_CEP',
+  },
 ];
