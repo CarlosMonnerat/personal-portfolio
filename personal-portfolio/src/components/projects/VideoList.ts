@@ -33,4 +33,9 @@ export const videoList: VideoItem[] = [
     siteUrl: 'https://carlosmonnerat.github.io/API_Consulta_de_CEP/',
     githubUrl: 'https://github.com/CarlosMonnerat/API_Consulta_de_CEP',
   },
+  {
+    file: 'pixabay.mp4',
+    siteUrl: 'https://carlosmonnerat.github.io/API_Pixabay/',
+    githubUrl: 'https://github.com/CarlosMonnerat/API_Pixabay',
+  },
 ];
