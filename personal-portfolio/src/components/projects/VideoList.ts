@@ -38,4 +38,9 @@ export const videoList: VideoItem[] = [
     siteUrl: 'https://carlosmonnerat.github.io/API_Pixabay/',
     githubUrl: 'https://github.com/CarlosMonnerat/API_Pixabay',
   },
+  {
+    file: 'pong.mp4',
+    siteUrl: 'https://carlosmonnerat.github.io/Pong_Game_Canvas/',
+    githubUrl: 'https://github.com/CarlosMonnerat/Pong_Game_Canvas',
+  },
 ];
