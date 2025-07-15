@@ -43,7 +43,7 @@ export default function VideoSlider({ videos }: VideoSliderProps) {
               }}
             />
             {/* Ações */}
-            <div className="absolute bottom-4 left-4 flex gap-4 bg-black/50 p-2 rounded-lg">
+            <div className="absolute top-4 right-4 flex gap-4 bg-black/50 p-2 rounded-lg">
               <a
                 href={video.siteUrl}
                 target="_blank"
@@ -63,8 +63,8 @@ export default function VideoSlider({ videos }: VideoSliderProps) {
                 <span className="text-sm">GitHub</span>
               </a>
             </div>
-            <div className="absolute bottom-4 right-4 flex bg-black/50 p-2 rounded-lg">
-              <span className="text-sm">{video.description}</span>
+            <div className="absolute bottom-0 flex bg-black/50 p-2 m-2 rounded-lg">
+              <span className="text-2sm">{video.description}</span>
             </div>
           </div>
         ))}
