@@ -63,8 +63,8 @@ export default function VideoSlider({ videos }: VideoSliderProps) {
                 <span className="text-sm">GitHub</span>
               </a>
             </div>
-            <div className="absolute bottom-0 flex bg-black/50 p-2 m-2 rounded-lg">
-              <span className="text-2sm">{video.description}</span>
+            <div className="absolute flex bottom-4 bg-black/80 p-2 m-2 rounded-lg">
+              <span className="text-center text-2sm">{video.description}</span>
             </div>
           </div>
         ))}
