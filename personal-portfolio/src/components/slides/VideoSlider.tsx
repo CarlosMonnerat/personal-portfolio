@@ -19,7 +19,7 @@ export default function VideoSlider({ videos }: VideoSliderProps) {
   };
 
   return (
-    <div className="relative w-full max-w-6xl mx-auto overflow-hidden rounded-xl border-1 border-purple-600 shadow-[0_0_30px_8px_rgba(192,132,252,0.5)] group">
+    <div className="relative flex-col w-full max-w-6xl mx-auto overflow-hidden rounded-xl border-1 border-purple-600 shadow-[0_0_30px_8px_rgba(192,132,252,0.5)] group">
       {/* Container do carrossel */}
       <div
         className="flex transition-transform duration-500 ease-in-out"
@@ -63,7 +63,7 @@ export default function VideoSlider({ videos }: VideoSliderProps) {
                 <span className="text-sm">GitHub</span>
               </a>
             </div>
-            <div className="absolute bottom-4 right-4 flex gap-4 bg-black/50 p-2 rounded-lg">
+            <div className="absolute bottom-4 right-4 flex bg-black/50 p-2 rounded-lg">
               <span className="text-sm">{video.description}</span>
             </div>
           </div>
