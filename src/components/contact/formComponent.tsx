@@ -24,13 +24,16 @@ export default function FormComponent() {
     e.preventDefault();
 
     // Integração com um serviço de envio (EmailJS)
+    const id_Service = process.env.NEXT_PUBLIC_ID_Service;
+    const id_template = process.env.NEXT_PUBLIC_ID_Template;
+    const public_key = process.env.NEXT_PUBLIC_Public_key;
     const templateParams = {
       nome: form.nome,
       email: form.email,
       mensagem: form.mensagem
     };
-                  //(ID Service, ID Template, templateParams(Opcional), "Public key")
-    emailjs.send("service_2ikp685", "template_ekvnwz8", templateParams, "n_CRbkvUshTxjYyLy").then((response)=>{
+                                                  //templateParams(Opcional))
+    emailjs.send(`${id_Service}`, `${id_template}`, templateParams, `${public_key}`).then((response)=>{
       console.log("Email enviado", response.status, response.text);
       alert("EMAIL ENVIADO COM SUCESSO!!! Obrigado por entrar em contato, retornarei o mais breve possível.");
     }, (err) =>{
