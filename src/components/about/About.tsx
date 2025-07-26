@@ -1,6 +1,6 @@
 import CurriculoSection from "./CurriculoSection";
 import Image from "next/image";
-import perfil from "../../../public/assets/img/homem.png";
+import perfil from "../../../public/assets/img/img_perfil.jpg";
 
 export default function About() {
   return (
