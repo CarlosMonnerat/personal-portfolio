@@ -33,8 +33,6 @@ export default function FormComponent() {
       mensagem: form.mensagem
     };
 
-    console.log("Chave pública:", process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
-
                                                   //templateParams(Opcional))
     emailjs.send(`${id_Service}`, `${id_template}`, templateParams, `${public_key}`).then((response)=>{
       console.log("Email enviado", response.status, response.text);

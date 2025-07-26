@@ -19,6 +19,7 @@ export default function Home() {
       {/* Conteúdo por cima do vídeo */}
       <BlackHole />
       <Header/>
+      
       <main className="relative z-10 text-white px-8 py-20 space-y-20">
         <Hero/>
         <h2 className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
