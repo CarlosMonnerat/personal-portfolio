@@ -9,7 +9,7 @@ Este é o repositório do meu portfólio pessoal, desenvolvido com foco em apres
 ## 🎥 Apresentação
 
 <p align="center">
-  <img src="https://cdn.pixabay.com/animation/2023/07/28/01/00/01-00-43-206_512.gif" alt="Demonstração do portfólio">
+  <img src="./public/assets/portfolio.gif" alt="Demonstração do portfólio">
 </p>
 
 ---
