@@ -4,7 +4,6 @@ import BlackHole from "@/components/background/BlackHole";
 import Hero from "@/components/hero/Hero";
 import VideoSlider from "@/components/slides/VideoSlider";
 import { videoList } from "@/components/projects/VideoList";
-import { videoList2 } from "@/components/projects/VideoList2";
 import Skills from "@/components/skills/Skills";
 import About from "@/components/about/About";
 import ContactSection from "@/components/contact/ContactSection";
