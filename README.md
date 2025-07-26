@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Carlos Monnerat – Portfólio Pessoal
 
-## Getting Started
+Este é o repositório do meu portfólio pessoal, desenvolvido com foco em apresentar meus principais projetos, habilidades e experiências como desenvolvedor. A proposta é criar uma interface moderna, responsiva e funcional, utilizando tecnologias atuais como Next.js, React, Typescript e Tailwind CSS.
 
-First, run the development server:
+🚧 Aviso: Este repositório ainda está em fase de desenvolvimento. Por isso, algumas funcionalidades e links podem não estar totalmente implementados ou funcionando corretamente. Atualizações serão feitas em breve.
 
+---
+
+## 🎥 Apresentação
+
+<p align="center">
+  <img src="https://cdn.pixabay.com/animation/2023/07/28/01/00/01-00-43-206_512.gif" alt="Demonstração do portfólio">
+</p>
+
+---
+
+## ✨ Funcionalidades
+
+- ⚛️ Interface moderna com React 19 e Tailwind CSS 4
+- 📱 Layout responsivo para mobile e desktop
+- 💌 Formulário de contato funcional com integração via EmailJS
+- 🎥 Suporte a vídeos com o pacote `next-video`
+- 🌙 Modo escuro (dark mode) pronto para uso
+
+---
+
+## 🔗 Acesse meu Portifólio
+
+👉 [**Acessar o site**](https://carlosmonnerat-portifolio.vercel.app/)
+
+---
+
+
+## 🛠️ Tecnologias utilizadas
+
+| Ferramenta        | Descrição                                  |
+|-------------------|--------------------------------------------|
+| [Next.js 15](https://nextjs.org/)             | Framework React com suporte SSR/SSG |
+| [React 19](https://react.dev/)                | Biblioteca JS para interfaces       |
+| [Tailwind CSS 4](https://tailwindcss.com/)    | Estilização moderna e responsiva    |
+| [Lucide Icons](https://lucide.dev/)           | Ícones vetoriais bonitos e leves    |
+| [EmailJS](https://www.emailjs.com/)           | Envio de e-mails pelo frontend      |
+| [TypeScript](https://www.typescriptlang.org/) | Tipagem estática para JS            |
+
+
+---
+
+
+## 📦 Como rodar localmente
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/CarlosMonnerat/personal-portfolio.git
+cd personal-portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
+```bash
+npm install
+# ou
+yarn
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Crie um arquivo `.env.local` com suas variáveis do EmailJS (opcional)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Inicie o ambiente de desenvolvimento:
+```bash
+npm run dev
+# ou
+yarn dev
+```
 
-## Learn More
+Acesse em `http://localhost:3000`.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🪪 Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está sob a licença MIT.  
+Sinta-se à vontade para usar como base para o seu próprio portfólio!
