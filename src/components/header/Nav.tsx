@@ -20,22 +20,22 @@ export default function Nav() {
       {/* Menu horizontal (desktop) */}
       <ul className="flex-row gap-15 font-bold text-white hidden is-desktop">
         <li>
-          <button onClick={() => scrollToSection("projetos")} className="hover:text-purple-400">
+          <button onClick={() => scrollToSection("projetos")} className="cursor-pointer hover:text-purple-400">
             PROJETOS
           </button>
         </li>
         <li>
-          <button onClick={() => scrollToSection("habilidades")} className="hover:text-purple-400">
+          <button onClick={() => scrollToSection("habilidades")} className="cursor-pointer hover:text-purple-400">
             HABILIDADES
           </button>
         </li>
         <li>
-          <button onClick={() => scrollToSection("sobre")} className="hover:text-purple-400">
+          <button onClick={() => scrollToSection("sobre")} className="cursor-pointer hover:text-purple-400">
             SOBRE
           </button>
         </li>
         <li>
-          <button onClick={() => scrollToSection("contato")} className="hover:text-purple-400">
+          <button onClick={() => scrollToSection("contato")} className="cursor-pointer hover:text-purple-400">
             CONTATO
           </button>
         </li>
