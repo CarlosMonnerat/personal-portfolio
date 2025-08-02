@@ -6,7 +6,7 @@ import github from "../../../public/assets/img/icon-github.svg";
 export default function Medias() {
   return (
     <div className="flex flex-row gap-6 is-desktop">
-      <Link
+      {/* <Link
         href="#"
         target="_blank"
         className="bg-zinc-300 w-8 h-8 rounded-full flex items-center justify-center hover:border-2 border-purple-400 transition"
@@ -17,7 +17,7 @@ export default function Medias() {
           width={40}
           height={40}
         />
-      </Link>
+      </Link> */}
       <Link
         href="https://github.com/CarlosMonnerat"
         target="_blank"
