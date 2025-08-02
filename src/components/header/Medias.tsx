@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import linkedin from "../../../public/assets/img/icon-linkedin.svg";
+//import linkedin from "../../../public/assets/img/icon-linkedin.svg";
 import github from "../../../public/assets/img/icon-github.svg";
 
 export default function Medias() {
