@@ -22,22 +22,22 @@ export default function Home() {
       
       <main className="relative z-10 text-white px-8 py-20 space-y-20">
         <Hero/>
-        <h2 className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
+        <h2 id="projetos" className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
             Meus Projetos
         </h2>
 
         <p className="w-full max-w-6xl mx-auto">Passe o mouse para tocar o vídeo de apresentação.</p>
         <VideoSlider videos={videoList}/>
       
-        <h2 className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
+        <h2 id="habilidades" className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
             Habilidades
         </h2>
         <Skills/>
-        <h2 className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
+        <h2 id="sobre" className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
             Sobre Mim
         </h2>
         <About/>
-        <h2 className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
+        <h2 id="contato" className="flex justify-center items-center mt-60 text-white text-3xl font-bold">
             Contato
         </h2>
         <ContactSection/>

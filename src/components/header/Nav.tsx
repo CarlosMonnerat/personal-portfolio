@@ -1,35 +1,43 @@
 'use client';
-import { useState } from "react";
-import Link from "next/link";
+import { useState, useRef } from "react";
 import { Menu, X } from "lucide-react";
 
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  // Função para rolar até a seção correspondente
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+      setMenuOpen(false); // Fecha o menu mobile se estiver aberto
+    }
+  };
+
   return (
     <nav className="relative flex justify-between items-center border-2 border-purple-400 rounded-full px-6 py-3 shadow-[0_0_12px_3px_rgba(192,132,252,0.5)]">
-      
+
       {/* Menu horizontal (desktop) */}
-      <ul className="flex-row gap-15 font-bold text-white  hidden is-desktop">
+      <ul className="flex-row gap-15 font-bold text-white hidden is-desktop">
         <li>
-          <Link href="#" className="hover:text-purple-400">
+          <button onClick={() => scrollToSection("projetos")} className="hover:text-purple-400">
             PROJETOS
-          </Link>
+          </button>
         </li>
         <li>
-          <Link href="#" className="hover:text-purple-400">
+          <button onClick={() => scrollToSection("habilidades")} className="hover:text-purple-400">
             HABILIDADES
-          </Link>
+          </button>
         </li>
         <li>
-          <Link href="#" className="hover:text-purple-400">
+          <button onClick={() => scrollToSection("sobre")} className="hover:text-purple-400">
             SOBRE
-          </Link>
+          </button>
         </li>
         <li>
-          <Link href="#" className="hover:text-purple-400">
+          <button onClick={() => scrollToSection("contato")} className="hover:text-purple-400">
             CONTATO
-          </Link>
+          </button>
         </li>
       </ul>
 
@@ -43,24 +51,24 @@ export default function Nav() {
         <div className="absolute top-14 right-0 w-56 bg-purple-500 border-2 border-purple-700 rounded-lg p-4 z-50 is-mobile shadow-[0_0_12px_3px_rgba(192,132,252,0.5)]">
           <ul className="flex flex-col gap-4 text-white font-bold">
             <li>
-              <Link href="#" className="hover:text-purple-400" onClick={() => setMenuOpen(false)}>
+              <button onClick={() => scrollToSection("projetos")} className="hover:text-purple-400">
                 Projetos
-              </Link>
+              </button>
             </li>
             <li>
-              <Link href="#" className="hover:text-purple-400" onClick={() => setMenuOpen(false)}>
+              <button onClick={() => scrollToSection("habilidades")} className="hover:text-purple-400">
                 Habilidades
-              </Link>
+              </button>
             </li>
             <li>
-              <Link href="#" className="hover:text-purple-400" onClick={() => setMenuOpen(false)}>
+              <button onClick={() => scrollToSection("sobre")} className="hover:text-purple-400">
                 Sobre Mim
-              </Link>
+              </button>
             </li>
             <li>
-              <Link href="#" className="hover:text-purple-400" onClick={() => setMenuOpen(false)}>
+              <button onClick={() => scrollToSection("contato")} className="hover:text-purple-400">
                 Contato
-              </Link>
+              </button>
             </li>
           </ul>
         </div>
