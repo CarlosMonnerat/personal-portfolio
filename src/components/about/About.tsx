@@ -34,7 +34,7 @@ export default function About() {
 
         <div className="flex flex-col justify-start items-start w-full mb-8 about-text">
           <p>
-            Desenvolvedor Web, focado em soluções digitais personalizadas e forte entusiasmo por criar interfaces modernas, rápidas e responsivas, totalmente funcionais e centradas na experiência do usuário. Páginas institucionais, lojas virtuais (e-commerce), blogs e landing pages. Meu objetivo é transformar ideias em experiências online eficientes e que gerem resultados, seja para atrair clientes, vender produtos ou fortalecer a presença digital.
+            Ajudo empresas e profissionais a transformarem ideias em produtos digitais reais e funcionais como: Páginas institucionais, lojas virtuais (e-commerce), blogs, landing pages, entre outras, seja para atrair clientes, vender produtos ou fortalecer a presença digital.
           </p>
         </div>
 
@@ -42,7 +42,7 @@ export default function About() {
           <h4 className="text-2xl font-semibold text-purple-500">Formação Acadêmica:</h4>
           <ol className="list-disc pl-5">
             <li>Bacharel em Física - 2024</li>
-            <li>Bacharel em Eng. de Software - 2026</li>
+            <li>Bacharel em Eng. de Software - 2026 (cursando)</li>
           </ol>
         </div>
 
