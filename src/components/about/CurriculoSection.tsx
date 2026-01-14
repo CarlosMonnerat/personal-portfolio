@@ -7,7 +7,7 @@ export default function CurriculoSection() {
         Clique no botão abaixo para acessar meu currículo completo em PDF.
       </p>
       <a
-        href="/curriculo.pdf"
+        href="/curriculum/curriculo-carlos-monnerat.pdf"
         download
         className="inline-block text-white px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-purple-950 hover:bg-gradient-to-l hover:shadow-[0_0_10px_2px_rgba(152,132,152)] transition-colors"
       >
