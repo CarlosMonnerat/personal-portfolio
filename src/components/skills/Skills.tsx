@@ -7,17 +7,17 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: "HTML5", src: "/assets/img/technologies/html5.svg", width: 73 },
-  { name: "CSS3", src: "/assets/img/technologies/css3.svg", width: 73 },
-  { name: "JavaScript", src: "/assets/img/technologies/javascript.svg", width: 60},
-  { name: "TypeScript", src: "/assets/img/technologies/typescript.svg", width: 60},
-  { name: "React", src: "/assets/img/technologies/react.svg", width: 75 },
-  { name: "Next.js", src: "/assets/img/technologies/nextjs.svg", width: 75 },
-  { name: "TailwindCSS", src: "/assets/img/technologies/tailwind.svg", width: 80 },
-  { name: "Node.js", src: "/assets/img/technologies/nodejs.svg", width: 100 },
-  { name: "MySQL", src: "/assets/img/technologies/mysql.svg", width: 118 },
+  { name: "HTML5", src: "/assets/img/technologies/html5.svg", width: 90 },
+  { name: "CSS3", src: "/assets/img/technologies/css3.svg", width: 90 },
+  { name: "JavaScript", src: "/assets/img/technologies/javascript.svg", width: 90},
+  { name: "TypeScript", src: "/assets/img/technologies/typescript.svg", width: 90},
+  { name: "React", src: "/assets/img/technologies/react.svg", width: 90 },
+  { name: "Next.js", src: "/assets/img/technologies/nextjs.svg", width: 90 },
+  { name: "TailwindCSS", src: "/assets/img/technologies/tailwind.svg", width: 90 },
+  { name: "Node.js", src: "/assets/img/technologies/nodejs.svg", width: 90 },
+  { name: "MySQL", src: "/assets/img/technologies/mysql.svg", width: 90 },
   { name: "Git", src: "/assets/img/technologies/git.svg", width: 90 },
-  { name: "GitHub", src: "/assets/img/technologies/github.svg", width: 75 },
+  { name: "GitHub", src: "/assets/img/technologies/github.svg", width: 90 },
 ];
 
 export default function Skills() {
